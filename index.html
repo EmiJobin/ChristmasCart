@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Christmas Shopping Cart</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/bell1.jpg.png" id="logo"width="20%" height="20%" >
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/greencart1.jpg" id="img-cart" width="40%">
+                            <div id="shopping-cart">
+                                    <table id="cart-content" class="u- full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Image</th>
+                                                <th>Name</th>
+                                                <th>Price</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="hero-content">
+                                <h2> 2020 Best Christmas Deals</h2>
+                                <p>This festive season find luxury in little things .Our Chritmas shop has everything you need to celebrate.</p>
+                                <form action="#" id="search" method="post" class="form">
+                                    <input class="u-full-width" type="text" placeholder="Search By Keyword " id="search-course">
+                                    <input type="submit" id="submit-search-course" class="submit-search-course">
+                                </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icon icon1">
+                        <p>Free Delivery With Orders <br>Over £30
+                        </p>
+                    </div>
+                    <div class="four columns icon icon2">
+                        <p> Recive  £10 Off your  <br>
+                        First Visit</p>
+                    </div>
+                    <div class="four columns icon icon3">
+                        <p>Subscribe to our<br>
+                        Newsletter</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="courses-list" class="container">
+        <h1 id="heading" class="heading">All for your Celebration</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/christmas-collectibles-.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Christmas Collectibles</h4>
+                        <p> Little Dinner Tree Decoration </p>
+                        <img src="img/stars.png">
+                        <p class="price">£99  <span class="u-pull-right ">£70</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                    </div> 
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/advent-calendars.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Advent Calenders</h4>
+                            <p>calenders</p>
+                            <img src="img/stars.png">
+                            <p class="price">£50  <span class="u-pull-right ">£40</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to Cart</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/christmas-lights.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Christmas Lights</h4>
+                            <p>Outdoor Lights</p>
+                            <img src="img/stars.png">
+                            <p class="price">£65  <span class="u-pull-right ">£35</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/christmas-trees-.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Christmas Trees</h4>
+                        <p> Cone Pine Tree</p>
+                        <img src="img/stars.png">
+                        <p class="price">£280  <span class="u-pull-right ">£199</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/basket.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4> Decor </h4>
+                            <p>Tree Basket Grey</p>
+                            <img src="img/stars.png">
+                            <p class="price">£37  <span class="u-pull-right ">£30</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/pot.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Pot tree</h4>
+                            <p>Mini Tree in Paper Pot</p>
+                            <img src="img/stars.png">
+                            <p class="price">£25  <span class="u-pull-right ">£20</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/christmas-tableware.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Tableware</h4>
+                        <p>Toys Delight Serving Platter </p>
+                        <img src="img/stars.png">
+                        <p class="price">£105 <span class="u-pull-right ">£87</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Add to Cart</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/christmas-cushions.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Cushions</h4>
+                            <p> Santas Reindeer Pillow </p>
+                            <img src="img/stars.png">
+                            <p class="price">£140  <span class="u-pull-right ">£112</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/christmas-stockings.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Christmas Stockings</h4>
+                            <p> Tiger Stocking</p>
+                            <img src="img/stars.png">
+                            <p class="price">£50  <span class="u-pull-right ">£42
+                            </span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="9">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/wreaths-garlands-artificial-stems-.jpg" class="course-image u-full-width">
+                        <div class="info-card">
+                            <h4>Garlands $ Stems</h4>
+                            <p>Berry Nd Green Leaf</p>
+                            <img src="img/stars.png">
+                            <p class="price">£55  <span class="u-pull-right ">£45</span></p>
+                            <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="10">Add to Cart</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/christmas-ornaments.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4> Christmas Ornaments</h4>
+                                <p>Red and Snow </p>
+                                <img src="img/stars.png">
+                                <p class="price">£43  <span class="u-pull-right ">35</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="11">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/christmas-candles.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4> Candles</h4>
+                                <p> Candles and Stands</p>
+                                <img src="img/stars.png">
+                                <p class="price"> £60 <span class="u-pull-right ">£53</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="12">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="primary" class="menu">
+                                <a class="link" href="#"><i class="material-icons md-24">call</i>Contact Us</a>
+                                <a class="link" href="#"><i class="material-icons md-24 " >mail</i>Customer Service</a>
+                                
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secondary" class="menu">
+                                <a class="link" href="#"><i class="material-icons md-24">groups</i>About Us</a>
+                                
+                                <a class="link" href="#"><i class="material-icons md-24">message</i>Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
